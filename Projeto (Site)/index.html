@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel's Dapper Dutch</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel = "icon" href="Fotos/logo.png" type="image/png">
+</head>
+<body>
+
+    <!-- Inicio -->
+
+    <header class = "max-width bg" id = "home">
+        <div class = "container">
+            <div id="google_translate_element"></div>
+            <div class="menu">
+                <div class = "logo"></div>
+                <div class = "desktop-menu">
+                    <ul>
+                        <li><a href = "#home">Inicio</a></li>
+                        <li><a href = "#menu">Menu</a></li>
+                        <li><a href = "#about">Sobre Nós</a></li>
+                        <li><a href = "#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class = "mobile-menu" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    <ul id="myLinks">
+                        <li><a href = "#home">Inicio</a></li>
+                        <li><a href = "#menu">Menu</a></li>
+                        <li><a href = "#about">Sobre Nós</a></li>
+                        <li><a href = "#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="call">
+                <div class="left">
+                    <img src="Fotos/inicio (1).jpg" alt="Prato típico holandês, feito com peixe, frutas e molho.">
+                </div>
+                <div class="right">
+                    <h1 class = "color-laranja text-gd">Daniel's Dapper Dutch</h1>
+                    <h2 class = "color-cinza-1 text-md"> Experimente a melhor comida holandesa da região</h2>
+                    <p class = "text-pq">Visite o Daniel’s Dapper Dutch, o destino supremo para a autêntica culinária holandesa na região, onde tradição e sabor se encontram em um ambiente acolhedor e elegante.</p>
+                </div>
+            </div>
+        </div>
+        <button id = "back-to-top">^</button>
+    </header>
+
+    <!-- Sobre Nós -->
+
+    <section class = "max-width bg" id = "about">
+        <div class="container">
+            <div class="call">
+                <div class="left">
+                    <span class = "text-title color-laranja">Sobre Nós</span>
+                    <h2 class = "text-md color-cinza-1">Nós cozinhamos a melhor comida Holandesa!</h2>
+                    <p>No nosso restaurante, eu me orgulho de servir a mais refinada cozinha holandesa da região. Cada prato é uma celebração dos sabores ricos e autênticos dos Países Baixos, criados com paixão e ingredientes da mais alta qualidade. Venha experimentar o melhor da tradição holandesa na nossa cozinha!</p>
+                </div>
+                <div class="right">
+                    <img src="Fotos/inicio (2).jpg" alt="Prato típico holandês, semelhante a um waffle, com recheio de chantily.">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "max-width bg" id = "service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class = "text-title color-laranja">Ofertas</span>
+                    <h2 class = "text-md color-cinza-1">A verdadeira comida Holandesa.</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class="fa fa-cutlery text-gd color-laranja"></i>
+                        <h2>A melhor comida</h2>
+                        <p>A verdadeira comida holandesa, com ingredientes frescos e preparados por excelentes profissionais.</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-motorcycle text-gd color-laranja"></i>
+                        <h2>Entrega rapida</h2>
+                        <p>Garantimos a entrega rapida, com segurança e valorizando a qualidade do seu alimento.</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-phone text-gd color-laranja"></i>
+                        <h2>Atendimento Acolhedor</h2>
+                        <p>Nosso restaurante oferece um ambiente aconchegante e acolhedor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+
+    <section class = "max-width bg" id = "menu">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class = "text-title color-laranja">Prato do Dia</span>
+                    <h2 class = "text-md color-cinza-1">Cardápio</h2>
+                </div>
+
+                <!-- Entradas -->
+
+                <h2 class = "text-md color-cinza-1">Entradas</h2>
+                <div class="down">
+                    <div class="box">
+                        <img src="Fotos/entrada (1).jpg" alt=" Prato holandês chamado Bitterballen, constituido por bolinhas recheadas com carne e molho.">
+                        <h2 class="color-laranja">Bitterballen</h2>
+                        <p class="text-md">Bolinhas recheadas com carne e molho</p>
+                        <p>R$ 35,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/entrada (2).jpg" alt="Prato chamado Kroketten, constituido por croquetes de carne bovina com fritas">
+                        <h2 class="color-laranja">Kroketten</h2>
+                        <p class="text-md">Croquetes de carne bovina com fritas</p>
+                        <p>R$ 43,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/entrada (3).jpg" alt="Fatia de queijo Gouda, iguaria holandesa.">
+                        <h2 class="color-laranja">Queijo Gouda</h2>
+                        <p class="text-md">Um dos queijos mais famosos, servido em fatias.</p>
+                        <p>R$ 18,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/entrada (4).jpg" alt="Prato Poffertjes, constituido por panquecas servidas com manteiga e açúcar.">
+                        <h2 class="color-laranja">Poffertjes</h2>
+                        <p class="text-md">Panquecas servidas com manteiga e açúcar</p>
+                        <p>R$ 38,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/entrada (5).jpg" alt="Prato Oliebol, constituido por um bolinho de chuva, mas com muito açucar por cima.">
+                        <h2 class="color-laranja">Oliebol</h2>
+                        <p class="text-md">Bolinho de chuva, mas com muito açucar por cima.</p>
+                        <p>R$ 22,00</p>
+                    </div>
+                </div>
+
+                <!-- Pratos principais -->
+
+                <br>
+                <h2 class = "text-md color-cinza-1">Pratos principais</h2>
+                <div class="down">
+                    <div class="box">
+                        <img src="Fotos/principal (1).jpg" alt="Rookworst, linguiça de porco com molho e legumes.">
+                        <h2 class="color-laranja">Rookworst</h2>
+                        <p class="text-md">Linguiça de porco com molho e legumes.</p>
+                        <p>R$ 30,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/principal (2).jpg" alt="Stamppot, Purê de batata com legumes.">
+                        <h2 class="color-laranja">Stamppot</h2>
+                        <p class="text-md">Purê de batata com legumes.</p>
+                        <p>R$ 46,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/principal (3).jpg" alt="Kaassoufflé, Risole com queijo, vegetais e carne bovina.">
+                        <h2 class="color-laranja">Kaassoufflé</h2>
+                        <p class="text-md">Risole com queijo, vegetais e carne bovina.</p>
+                        <p>R$ 65,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/principal (4).jpg" alt="Nieuwe, Peixe arenque com cebola e picles.">
+                        <h2 class="color-laranja">Nieuwe</h2>
+                        <p class="text-md">Peixe arenque com cebola e picles.</p>
+                        <p>R$ 78,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/principal (5).jpg" alt="Makreel, Sanduíche de peixe Makreel, com queijo e presunto.">
+                        <h2 class="color-laranja">Makreel</h2>
+                        <p class="text-md">Sanduíche de peixe Makreel, com queijo e presunto.</p>
+                        <p>R$ 18,00</p>
+                    </div>
+                </div>
+
+                <!-- Sobremesas -->
+
+                <br>
+                <h2 class = "text-md color-cinza-1">Sobremesas</h2>
+                <div class="down">
+                    <div class="box">
+                        <img src="Fotos/sobremesas (1).jpg" alt="Boterkoek, Bolo tradicional com açucar manteiga, trigo e ovos.">
+                        <h2 class="color-laranja">Boterkoek</h2>
+                        <p class="text-md">Bolo tradicional com açucar manteiga, trigo e ovos.</p>
+                        <p>R$ 27,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/sobremesas (2).jpg" alt="Speculaas, Biscoito com especiarias, perfeito com café.">
+                        <h2 class="color-laranja">Speculaas</h2>
+                        <p class="text-md">Biscoito com especiarias, perfeito com café.</p>
+                        <p>R$ 12,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/sobremesas (3).jpg" alt="Bossche bol, Variação do profiterole, recheado com chantily.">
+                        <h2 class="color-laranja">Bossche bol</h2>
+                        <p class="text-md">Variação do profiterole, recheado com chantily.</p>
+                        <p>R$ 20,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/sobremesas (4).jpg" alt="Tompoes, Doce feito com massa folhada e pudim.">
+                        <h2 class="color-laranja">Tompoes</h2>
+                        <p class="text-md">Doce feito com massa folhada e pudim.</p>
+                        <p>R$ 24,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/sobremesas (5).jpg" alt="Apple Tart, Torta de maçã com sorvete de baunilha.">
+                        <h2 class="color-laranja">Apple Tart</h2>
+                        <p class="text-md">Torta de maçã com sorvete de baunilha.</p>
+                        <p>R$ 35,00</p>
+                    </div>
+                </div>
+
+                <!-- Bebidas -->
+
+                <br>
+                <h2 class = "text-md color-cinza-1">Bebidas</h2>
+                <div class="down">
+                    <div class="box">
+                        <img src="Fotos/bebida (1).jpg" alt=" Korenwijn, Um destilado forte feito de grãos, semelhante ao whisky">
+                        <h2 class="color-laranja"> Korenwijn</h2>
+                        <p class="text-md">Um destilado forte feito de grãos, semelhante ao whisky</p>
+                        <p>R$ 15,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/bebida (2).jpg" alt="Jenever, Um destilado feito com zimbro e outras especiarias">
+                        <h2 class="color-laranja">Jenever</h2>
+                        <p class="text-md">Um destilado feito com zimbro e outras especiarias</p>
+                        <p>R$ 18,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/bebida (3).jpg" alt="Verkeerd, Uma versão holandesa do café com leite">
+                        <h2 class="color-laranja">Verkeerd</h2>
+                        <p class="text-md">Uma versão holandesa do café com leite</p>
+                        <p>R$ 10,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/bebida (4).jpg" alt="Tompoes, Doce feito com massa folhada e pudim.">
+                        <h2 class="color-laranja">Tompoes</h2>
+                        <p class="text-md">Doce feito com massa folhada e pudim.</p>
+                        <p>R$ 24,00</p>
+                    </div>
+                    <div class="box">
+                        <img src="Fotos/sobremesas (5).jpg" alt="Kopstoot, Combinação de Jenever e cerveja.">
+                        <h2 class="color-laranja">Kopstoot</h2>
+                        <p class="text-md">Combinação de Jenever e cerveja.</p>
+                        <p>R$ 15,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-width bg" id="contact">
+        <div class="container">
+            <div class="call">
+                    <h2>Contato</h2>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <label>Nome</label>
+                        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                        <label>Mensagem</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+            
+                        <input type="hidden" name="accessKey" value="c90883d2-9300-49a8-ba84-40637188979e">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/Projeto (Site)/obrigado.html">
+                    </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="Fotos/logo.png" alt="Logo">
+            <p class="text-pq">Copyright 2024 <span class="color-laranja">FRONT</span> All Rights Reserved.</p>
+            <p class="text-pq">Tel: 4002-8922</p>
+        </div>
+    </footer>
+
+    <script>
+        var btn = document.querySelector("#back-to-top");
+        btn.addEventListener("click", function(){
+            window.scrollTo(0,0);
+        })
+
+        function myFunction(){
+            var x = document.getElementById("myLinks")
+            if (x.style.display === "block"){
+                x.style.display = "none"
+            }else{
+                x.style.display = "block"
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+        </script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
